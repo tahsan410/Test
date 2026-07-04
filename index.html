@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <!-- bootstrap cdn -->
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body class="bg-black">
+    <header>
+        <nav class="navbar navbar-expand-lg text-white">
+            <div class="container d-flex justify-content-center">
+
+                <a class="navbar-brand" href="#">
+                    <img src="image/logo.png" G" class="img-fluid" style="height: 80px;">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#portfolioNavbar"
+                    aria-controls="portfolioNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="portfolioNavbar">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center text-center">
+                        <li class="nav-item px-lg-2">
+                            <a class="nav-link active fw-semibold text-white fs-5" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item px-lg-2">
+                            <a class="nav-link text-white fs-5" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item px-lg-2">
+                            <a class="nav-link text-white fs-5" href="#">Skills</a>
+                        </li>
+                        <li class="nav-item px-lg-2">
+                            <a class="nav-link text-white fs-5" href="#">About</a>
+                        </li>
+                        <li class="nav-item px-lg-2 mt-2 mt-lg-0">
+                            <a class="btn btn-info text-dark fw-bold px-3 py-1 d-flex align-items-center gap-1 rounded-1"
+                                href="#" target="_blank">
+                                Resume <i class="fa-solid fa-download"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <main class="text-white container py-5">
+
+            <section class="row align-items-center min-vh-100 py-5">
+                <div class="col-md-7 order-2 order-md-1">
+                    <h1 class="display-3 fw-bold text-info mb-1">HI !</h1>
+                    <h1 class="display-2 fw-bold text-info mb-3">I'M GIAS UDDIN</h1>
+                    <h5 class="fw-semibold text-white mb-4 fs-4">Web Developer || React Developer || Programmer</h5>
+
+                    <p class="text-white mb-5 fs-5 lh-base" style="max-width: 600px;">
+                        I am an enthusiastic JavaScript developer with knowing some framework for the frontend and the
+                        backend.
+                        I know Basic PHP and MySQL but basically a MERN developer.
+                    </p>
+
+                    <div class="d-flex align-items-center gap-4 flex-wrap">
+                        <a href="#" class="text-info fs-2"><i class="fa-brands fa-github"></i></a>
+                        <a href="#" class="text-info fs-2"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#" class="text-info fs-2"><i class="fa-brands fa-youtube"></i></a>
+
+                        <a class="btn btn-info text-dark fw-bold px-4 py-2 d-flex align-items-center gap-2 rounded-1 ms-2"
+                            href="#" target="_blank">
+                            Resume <i class="fa-solid fa-download"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-5 order-1 order-md-2 text-center mb-5 mb-md-0">
+                    <img src="image/gias.jpg" alt="Gias Uddin" class="img-fluid border border-secondary border-2 p-1"
+                        style="max-height: 450px; object-fit: cover;">
+                </div>
+            </section>
+
+            <section class="py-5">
+                <h2 class="text-center display-4 fw-bold mb-5 text-white">Portfolio</h2>
+
+                <div class="row bg-black border border-secondary rounded-2 p-4 mb-4 align-items-center mx-1">
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <img src="image/travel-guru-map.png" alt="Online University"
+                            class="img-fluid rounded border border-secondary">
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 class="text-info fw-bold mb-3 d-flex align-items-center gap-2 fs-3">
+                            Urban Riders <span class="d-flex align-items-center gap-2 ms-1"><i
+                                    class="bi bi-vignette text-info fs-4"></i><i
+                                    class="bi bi-box text-info fs-4"></i></span>
+                        </h3>
+                        <p class="mb-3 text-white fs-5">
+                            An interactive campus ride-sharing and logistics SaaS solution designed for seamless
+                            intra-city transportation. Users can instantly choose locations, check available vehicle
+                            groups, and experience dynamic routing features.
+                        </p>
+                        <ul class="text-white-50 ps-3 mb-4 fs-5">
+                            <li class="mb-1">Dynamic location filtering based on popular hubs (e.g., Mirpur to
+                                Dhanmondi).</li>
+                            <li class="mb-1">Real-time fair estimation system categorized by vehicle tiers.</li>
+                            <li class="mb-1">Fully integrated interactive map system for tracing accurate pickup points.
+                            </li>
+                            <li class="mb-1">Secure social login options with complete user profile authentication
+                                dashboards.</li>
+                        </ul>
+                        <div class="d-flex flex-wrap gap-2">
+                            <span class="badge bg-secondary text-white px-3 py-2 fs-6 fw-normal rounded-1">React</span>
+                            <span
+                                class="badge bg-secondary text-white px-3 py-2 fs-6 fw-normal rounded-1">Firebase</span>
+                            <span class="badge bg-secondary text-white px-3 py-2 fs-6 fw-normal rounded-1">HTML</span>
+                            <span class="badge bg-secondary text-white px-3 py-2 fs-6 fw-normal rounded-1">CSS</span>
+                            <span class="badge bg-secondary text-white px-3 py-2 fs-6 fw-normal rounded-1">NODE</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row bg-black border border-secondary rounded-2 p-4 mb-5 align-items-center mx-1">
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <img src="image/Velora.webp" alt="Velora"
+                            class="img-fluid rounded border border-secondary" width="100%">
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 class="text-info fw-bold mb-3 d-flex align-items-center gap-2 fs-3">
+                            Velora Logistics <span class="d-flex align-items-center gap-2 ms-1"><i
+                                    class="bi bi-vignette text-info fs-4"></i><i
+                                    class="bi bi-box text-info fs-4"></i></span>
+                        </h3>
+                        <p class="mb-3 text-white fs-5">
+                            A dedicated management interface for localized apparel shipping and quick campus food
+                            deliveries. It handles automated input filtering to match available delivery partners
+                            instantly with the active consumers.
+                        </p>
+                        <ul class="text-white-50 ps-3 mb-4 fs-5">
+                            <li class="mb-1">Form inputs with auto-complete feature for specific location mapping.</li>
+                            <li class="mb-1">Optimized parcel weight calculation matrix with integrated pricing
+                                endpoints.</li>
+                            <li class="mb-1">Comprehensive persistent database system tailored for handling local retail
+                                vendors.</li>
+                            <li class="mb-1">Optimized for lightweight loading speed across standard mobile connections.
+                            </li>
+                        </ul>
+                        <div class="d-flex flex-wrap gap-2">
+                            <span class="badge bg-secondary text-white px-3 py-2 fs-6 fw-normal rounded-1">React</span>
+                            <span
+                                class="badge bg-secondary text-white px-3 py-2 fs-6 fw-normal rounded-1">MongoDB</span>
+                            <span
+                                class="badge bg-secondary text-white px-3 py-2 fs-6 fw-normal rounded-1">Express.js</span>
+                            <span
+                                class="badge bg-secondary text-white px-3 py-2 fs-6 fw-normal rounded-1">Bootstrap</span>
+                            <span class="badge bg-secondary text-white px-3 py-2 fs-6 fw-normal rounded-1">NODE</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="py-5">
+                <div class="row gy-5">
+
+                    <div class="col-lg-7">
+
+                        <div class="mb-5">
+                            <h2 class="fw-bold mb-4 display-6">Expertise:</h2>
+                            <div class="d-flex flex-wrap gap-2">
+                                <span
+                                    class="badge bg-secondary text-white px-3 py-2 fs-5 fw-normal rounded-1">React.js</span>
+                                <span
+                                    class="badge bg-secondary text-white px-3 py-2 fs-5 fw-normal rounded-1">Javascript</span>
+                                <span
+                                    class="badge bg-secondary text-white px-3 py-2 fs-5 fw-normal rounded-1">node.js</span>
+                                <span
+                                    class="badge bg-secondary text-white px-3 py-2 fs-5 fw-normal rounded-1">Firebase</span>
+                            </div>
+                            <div class="d-flex flex-wrap gap-2 mt-2">
+                                <span
+                                    class="badge bg-secondary text-white px-3 py-2 fs-5 fw-normal rounded-1">Express.js</span>
+                                <span
+                                    class="badge bg-secondary text-white px-3 py-2 fs-5 fw-normal rounded-1">HTML</span>
+                                <span
+                                    class="badge bg-secondary text-white px-3 py-2 fs-5 fw-normal rounded-1">Bootstrap</span>
+                                <span
+                                    class="badge bg-secondary text-white px-3 py-2 fs-5 fw-normal rounded-1">MongoDB</span>
+                            </div>
+                        </div>
+
+                        <div class="mb-5">
+                            <h2 class="fw-bold mb-4 display-6">Comfortable:</h2>
+                            <div class="d-flex flex-wrap gap-2">
+                                <span
+                                    class="badge bg-secondary text-white px-3 py-2 fs-5 fw-normal rounded-1">SQL</span>
+                                <span
+                                    class="badge bg-secondary text-white px-3 py-2 fs-5 fw-normal rounded-1">Redux</span>
+                                <span
+                                    class="badge bg-secondary text-white px-3 py-2 fs-5 fw-normal rounded-1">Socket.io</span>
+                                <span
+                                    class="badge bg-secondary text-white px-3 py-2 fs-5 fw-normal rounded-1">AWS</span>
+                                <span
+                                    class="badge bg-secondary text-white px-3 py-2 fs-5 fw-normal rounded-1">Docker</span>
+                                <span
+                                    class="badge bg-secondary text-white px-3 py-2 fs-5 fw-normal rounded-1">TypeScript</span>
+                                <span
+                                    class="badge bg-secondary text-white px-3 py-2 fs-5 fw-normal rounded-1">Next.js</span>
+                            </div>
+                        </div>
+
+                        <div class="mb-5">
+                            <h2 class="fw-bold mb-4 display-6">Familiar:</h2>
+                            <div class="d-flex flex-wrap gap-2">
+                                <span
+                                    class="badge bg-secondary text-white px-3 py-2 fs-5 fw-normal rounded-1">C++</span>
+                                <span
+                                    class="badge bg-secondary text-white px-3 py-2 fs-5 fw-normal rounded-1">python</span>
+                                <span class="badge bg-secondary text-white px-3 py-2 fs-5 fw-normal rounded-1">Spring
+                                    Boot</span>
+                                <span
+                                    class="badge bg-secondary text-white px-3 py-2 fs-5 fw-normal rounded-1">Networking</span>
+                            </div>
+                        </div>
+
+                        <div class="mb-4">
+                            <h2 class="fw-bold mb-4 display-6">Tools:</h2>
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="badge bg-secondary text-white px-3 py-2 fs-5 fw-normal rounded-1">VS
+                                    CODE</span>
+                                <span
+                                    class="badge bg-secondary text-white px-3 py-2 fs-5 fw-normal rounded-1">JIRA</span>
+                                <span
+                                    class="badge bg-secondary text-white px-3 py-2 fs-5 fw-normal rounded-1">Trello</span>
+                                <span
+                                    class="badge bg-secondary text-white px-3 py-2 fs-5 fw-normal rounded-1">Git</span>
+                                <span
+                                    class="badge bg-secondary text-white px-3 py-2 fs-5 fw-normal rounded-1">Git</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-5 d-flex flex-column justify-content-center text-center text-lg-start ps-lg-5">
+                        <h2 class="display-4 fw-bold text-info mb-3">My Education</h2>
+                        <h4 class="fw-semibold text-white mb-2">B.Sc in Software Engineering,</h4>
+                        <h4 class="fw-normal text-white mb-2">Yunnan University ( Kunming,Yunnan,China )</h4>
+                        <p class="text-white fs-5">2018-2022</p>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="py-5 d-flex flex-column align-items-center">
+                <h2 class="display-4 fw-bold text-center mb-5">Contact with Me</h2>
+
+                <div class="w-100 bg-black border border-secondary p-4 p-md-5 rounded-1 shadow-lg"
+                    style="max-width: 650px;">
+                    <form>
+                        <div class="mb-4">
+                            <input type="text"
+                                class="form-control bg-transparent text-white border-secondary rounded-1 py-2 fs-5 text-center text-md-start"
+                                placeholder="please type your name" required>
+                        </div>
+
+                        <div class="mb-4">
+                            <input type="email"
+                                class="form-control bg-transparent text-white border-secondary rounded-1 py-2 fs-5 text-center text-md-start"
+                                placeholder="please type your Email" required>
+                        </div>
+
+                        <div class="mb-4">
+                            <textarea
+                                class="form-control bg-transparent text-white border-secondary rounded-1 py-2 fs-5 text-center text-md-start"
+                                rows="4" placeholder="Type here message"></textarea>
+                        </div>
+
+                        <div class="d-grid">
+                            <button type="submit"
+                                class="btn btn-secondary text-info fw-bold py-3 fs-5 rounded-1 border-0"
+                                style="background-color: #5A6268;">
+                                Send
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+        </main>
+        <footer class="bg-black text-white py-5 border-top border-secondary border-opacity-25">
+            <div class="container d-flex flex-column align-items-center justify-content-center text-center">
+
+                <p class="mb-2 fs-5 text-white-50">
+                    Copyright &copy; 2021 | gias uddin
+                </p>
+
+                <p class="mb-4 fs-5 text-white-50">
+                    kunming,yunnan,china
+                </p>
+
+                <div class="d-flex align-items-center justify-content-center gap-4">
+                    <a href="#" class="text-info fs-3 transition-icon" target="_blank">
+                        <i class="bi bi-github"></i>
+                    </a>
+                    <a href="#" class="text-info fs-3 transition-icon" target="_blank">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="#" class="text-info fs-3 transition-icon" target="_blank">
+                        <i class="bi bi-youtube"></i>
+                    </a>
+                </div>
+
+            </div>
+        </footer>
+
+        <div>
+            <!-- script file cdn -->
+            <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+            <script src="bootstrap-5.3.8-dist/js/bootstrap.js"></script>
+        </div>
+</body>
+
+</html>
